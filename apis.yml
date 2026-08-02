@@ -1,19 +1,43 @@
 aid: wunder
 name: Wunder
-description: Wunder is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wunder (formerly Wunder Capital, wewunder.com, now wunderpower.com) is a
+  commercial clean-energy company that deploys solar, battery storage, and EV charging
+  infrastructure across real estate portfolios with no-CapEx energy solutions, managing
+  projects from design through operations in 40+ US states. Backed by Techstars and a
+  $650M partnership with Blackstone, Wunder runs its project development on Astra, a
+  proprietary internal platform for energy data analysis, forecasting, and automation.
+  Wunder publishes no public API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/wunder/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://wunderpower.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar Energy
+- Clean Energy
+- Renewable Energy
+- Real Estate
+- Battery Storage
+- EV Charging
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,16 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://wewunder.com/
+  url: https://wunderpower.com/
+- type: Blog
+  url: https://wunderpower.com/insights
+- type: PrivacyPolicy
+  url: https://wunderpower.com/privacy
+- type: Login
+  url: https://app.wunderpower.com/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/wunder/
+- type: LLMsTxt
+  url: llms/wunder-llms.txt
+- type: DomainSecurity
+  url: security/wunder-domain-security.yml
