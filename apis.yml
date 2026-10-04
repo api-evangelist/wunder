@@ -48,7 +48,7 @@ tags:
 - Solar Energy
 - Clean Energy
 - Renewable Energy
-- Real-Estate
+- Real Estate
 - Battery Storage
 - EV Charging
 - Energy
@@ -61,6 +61,7 @@ tags_raw:
 - Battery Storage
 - EV Charging
 - Energy
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
